@@ -1,10 +1,17 @@
 {
   "display": {
     "family": "Playfair Display",
-    "google": true
+    "google": true,
+    "weights": [400, 600]
   },
   "body": {
     "family": "Inter",
-    "google": true
+    "google": true,
+    "weights": [400, 500]
+  },
+  "mono": {
+    "family": "JetBrains Mono",
+    "google": true,
+    "weights": [400]
   }
 }
