@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ProjectImage } from "./ProjectImage";
 
 interface ProductSectionProps {
-  imageId: string;
+  imageId: "hero" | "logo" | "feature_1" | "feature_2" | "feature_3" | "social_proof";
   name: string;
   specs: string;
   description: string;
