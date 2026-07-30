@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 :root {
+  --font-display: 'Cormorant', serif;
+  --font-body: 'Source Sans 3', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
   --color-primary: #F2EDE6;
   --color-accent: #B85C2A;
   --color-bg: #F2EDE6;
