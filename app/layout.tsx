@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter, JetBrains_Mono } from "next/font/google";
+import { Cormorant, Source_Sans_3, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const fontDisplay = Playfair_Display({
+const fontDisplay = Cormorant({
   subsets: ["latin"],
   weight: ["400", "600"],
   variable: "--font-display",
   display: "swap",
 });
 
-const fontBody = Inter({
+const fontBody = Source_Sans_3({
   subsets: ["latin"],
   weight: ["400", "500"],
   variable: "--font-body",
   display: "swap",
 });
 
-const fontMono = JetBrains_Mono({
+const fontMono = IBM_Plex_Mono({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-mono",
