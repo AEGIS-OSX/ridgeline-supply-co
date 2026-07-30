@@ -3,26 +3,39 @@
 @tailwind utilities;
 
 :root {
-  --font-display: 'Cormorant', serif;
-  --font-body: 'Source Sans 3', sans-serif;
-  --font-mono: 'IBM Plex Mono', monospace;
-  --color-primary: #F2EDE6;
-  --color-accent: #B85C2A;
-  --color-bg: #F2EDE6;
-  --color-text: #1C1A17;
-  --color-muted: #666666;
+  --color-canvas: #F2EDE6;
+  --color-iron: #1C1A17;
+  --color-oxide: #B85C2A;
   --color-border: #C8C0B4;
   --color-dark-bg: #1C1A17;
   --color-dark-text: #F2EDE6;
   --color-dark-border: #383531;
-  --space-base: 8px;
+
+  --font-display: "Tiempos Headline", Georgia, serif;
+  --font-body: "Söhne", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Berkeley Mono", "SF Mono", "Fira Code", monospace;
+
+  --space-3xs: 4px;
+  --space-2xs: 8px;
+  --space-xs: 16px;
+  --space-sm: 24px;
+  --space-md: 32px;
+  --space-lg: 48px;
+  --space-xl: 64px;
+  --space-2xl: 96px;
+  --space-3xl: 128px;
 }
 
 html,
 body {
-  background: var(--color-bg);
-  color: var(--color-text);
+  background: var(--color-canvas);
+  color: var(--color-iron);
   font-family: var(--font-body);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-oxide);
+  outline-offset: 2px;
 }
 
 h1,
